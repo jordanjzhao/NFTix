@@ -1,35 +1,33 @@
-import '../styles/globals.css';
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+/* pages/_app.js */
+import '../styles/globals.css'
+import Link from 'next/link'
 
 function MyApp({ Component, pageProps }) {
   return (
     <div>
       <nav className="border-b p-6">
-        <p className="text-4xl font-bold">NFTix</p>
+        <p className="text-4xl font-bold">Metaverse Marketplace</p>
         <div className="flex mt-4">
-          <Router>
-          <Route path="/">
+          <Link href="/">
             <a className="mr-4 text-pink-500">
               Home
             </a>
-          </Route>
-          <Route href="/create-nft">
+          </Link>
+          <Link href="/create-nft">
             <a className="mr-6 text-pink-500">
               Sell NFT
             </a>
-          </Route>
-          <Route href="/my-nfts">
+          </Link>
+          <Link href="/my-nfts">
             <a className="mr-6 text-pink-500">
               My NFTs
             </a>
-          </Route>
-          <Route href="/dashboard">
+          </Link>
+          <Link href="/dashboard">
             <a className="mr-6 text-pink-500">
               Dashboard
             </a>
-          </Route>
-          </Router>
+          </Link>
         </div>
       </nav>
       <Component {...pageProps} />
@@ -37,4 +35,4 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default MyApp;
+export default MyApp
