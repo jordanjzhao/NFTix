@@ -8,7 +8,7 @@ module.exports = {
     hardhat: {
       chainId: 1337
     },
-    /*
+    
     mumbai: {
       // Infura
       // url: `https://polygon-mumbai.infura.io/v3/${infuraId}`
@@ -21,7 +21,7 @@ module.exports = {
       url: "https://rpc-mainnet.maticvigil.com",
       accounts: [process.env.privateKey]
     }
-    */
+    
   },
   solidity: {
     version: "0.8.4",
