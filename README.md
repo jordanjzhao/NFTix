@@ -4,12 +4,6 @@
 
 ### Running this project
 
-#### Gitpod
-
-To deploy this project to Gitpod, follow these steps:
-
-![MetaMask RPC Import](wallet.png)
-
 #### Local setup
 
 To run this project locally, follow these steps.
