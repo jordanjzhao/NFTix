@@ -1,12 +1,12 @@
 ## NFTix
 ### Full stack NFT Marketplace built with Polygon, Solidity, IPFS, & Next.js
 
-## The goal: 
-#  The purpose of this application is to design an anft marketplace where the NFTs represent real event tickets.
-#  By using NFTs as smart contracts, NFTix is able to use the ethereum blockchain to manage the distribution of event tickets between
-#  buyers and sellers. In doing so, NFTix intends to cut out major corporations such as ticketmaster, the "middle man" that is trusted
-#  to facilitate these transactions in exchange for lucrative fees. NFTix will save consumers Billions of dollars as the the middle man
-#  is eliminated and the blockchain takes over as the trusted entity in ticket transactions. 
+# The goal: 
+  The purpose of this application is to design an anft marketplace where the NFTs represent real event tickets.
+  By using NFTs as smart contracts, NFTix is able to use the ethereum blockchain to manage the distribution of event tickets between
+  buyers and sellers. In doing so, NFTix intends to cut out major corporations such as ticketmaster, the "middle man" that is trusted
+  to facilitate these transactions in exchange for lucrative fees. NFTix will save consumers Billions of dollars as the the middle man
+  is eliminated and the blockchain takes over as the trusted entity in ticket transactions. 
 
 ### Running this project
 
